@@ -1,0 +1,24 @@
+{
+  "name": "coursea",
+  "version": "1.0.0",
+  "description": "= Initialize a node js project\r = add express , jsonwebtoken to it as a dependenncey \r = create  index.js\r = Add routes skeleton for user login , singnup ,singnin, purchase a course , see courses\r = Add routes for admin login , admin singnup , create a course , delete a course , add  a course content ,.\r = add middlewhere for user a admin auth \r = add a database (mongoes) , use dotev and connecting string\r = complete the routes for user login, signup, perchese a course , see course(extra point - usee express routes for better strecture for routes)\r = create the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.13.0",
+    "nodemon": "^3.1.9",
+    "zod": "^3.24.2"
+  }
+}
